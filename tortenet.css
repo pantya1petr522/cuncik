@@ -1,0 +1,131 @@
+@import url('https://fonts.cdnfonts.com/css/anglo-text');
+
+h1 {
+    font-family: 'Anglo Text', sans-serif;
+    text-align: center;
+    font-size: 180px;
+    
+   
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+}
+
+/* #otzi{
+    display: block;
+    margin: 0 auto;
+} */
+body {
+    background-image: url(hatter.jpg);
+    ;
+}
+
+#bg {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+
+}
+
+.otzi {
+    height: 350px;
+    width: 250px;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+#kepek {
+    display: flex;
+
+    margin: 0 auto;
+
+}
+
+.otci {
+    font-family: 'Anglo Text', sans-serif;
+    font-size: 110px;
+    border-style: groove;
+    border-width: 7px;
+    border-color: rgb(69, 66, 66);
+  }
+
+
+#tetko {
+    font-family: 'Anglo Text', sans-serif;
+    font-size: 110px;
+    border-style: groove;
+    border-width: 7px;
+    border-color: rgb(69, 66, 66);
+}
+
+.gágá {
+    height: 350px;
+    width: 250px;
+    display: flex;
+    margin: 0 auto;
+
+
+}
+
+/* CSS */
+.button-54 {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-54:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 30px;
+    left: 5px;
+}
+
+@media (min-width: 768px) {
+    .button-54 {
+        padding: 0.25em 0.75em;
+    }
+}
+
+a:link{
+    text-decoration: none;
+
+
+}
+
+.gombok{
+   
+    display: block;
+}
+
+#tutu{
+    box-shadow: rgb(99, 94, 94) 10px 10px 10px 1px ;
+    border: 5px solid #201b1b;
+}
+
+#egyipt{
+    display: flex;
+    margin: 0 auto;
+ 
+}
+p{
+    text-align: center;
+}
+
+h2{
+    font-size: 30px ;
+}
