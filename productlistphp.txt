@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css ">
+
+    <title>Kezdőlap</title>
+
+</head>
+
+<body>
+
+    <div class="card container p-3 m-3">
+        <form action="/termekek" method="post">
+            <input type="text" name="name" placeholder="Név">
+            <input type="number" name="price" placeholder="Ár">
+            <button class="btn btn-success" type="submit">Küldés</button>
+        </form>
+    <?php 
+    foreach ($products as $product) : ?>
+        <h3>Név: <?= $product['name']?></h3>
+        <p>Ár: <?= $product['price']?> FT</p>
+        <hr>
+    
+    <?php endforeach?>
+
+
+
+    </div>
+
+</body>
+
+</html>
