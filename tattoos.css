@@ -1,5 +1,8 @@
 body {
     background-image:linear-gradient(rgba(160, 160, 160, 0.15) 50%, rgba(160, 160, 160, 0.15) 50%), url("pics/background.jpg");
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: cursive;
     margin: 0;
 }
