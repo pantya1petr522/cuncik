@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif; margin:0
+}
+
+.udvozles{
+	text-align: center;
+	font-family: "Signika", sans-serif;
+	}
+
+
+
+nav {
+	background: #000000;
+	position: sticky;
+	top: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav::after {
+	content:'';
+	clear: both;
+	display: table;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 1.2rem 1rem;
+	font-family: "Special Elite", system-ui;
+	text-align: center;
+}
+
+
+img {
+	background: fixed;
+	margin:0% auto;
+}
+.mySlides {
+	display:none;
+	margin: 0% auto;
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+.bekezdes{
+	text-align: center;
+    font-family: 'Goudy Bookletter 1911' ;
+}
