@@ -10,7 +10,8 @@ body {
 h1 {
     text-align: center;
     text-decoration: underline;
-    padding: 0 30px
+    padding: 0 30px;
+    margin: 0 auto;
 }
 
 h2 {
