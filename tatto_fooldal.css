@@ -37,7 +37,6 @@ nav ul li {
 }
 
 nav::after {
-
 	clear: both;
 	display: table;
 }
